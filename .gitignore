@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# pdfun session data (runtime ephemeral files)
+data/sessions/*
+!data/sessions/.gitkeep
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
